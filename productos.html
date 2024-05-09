@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Productos - Black world</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <audio id="audio" loop>
+                <source src="intro.mp3" type="audio/mpeg">
+                </audio>
+            <button onclick="playAudio()">Reproducir</button>
+
+            <script>
+                function playAudio() {
+                    var audio = document.getElementById('audio');
+                    audio.play();
+                }
+            </script>
+            <div class="caja">
+                <h1 style="font-size: x-large;"> <img src="world.jpg" class="rotacion">black world</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="compras.html">compras</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <ul class="productos">
+                <li>
+                    <h2>Playeras</h2>
+                    <img src="https://srv.latostadora.com/image/meme_personalizable--id:b4cd1397-484c-497d-9e48-11ad8eac85b0;s:M_L7;b:f2f2f2;w:334;f:f;i:1356231158492213562397.jpg" class="ImProductos">
+                    <p class="producto-descripcion">estampado a su eleccion, diferentes implementaciones de estampado, colores a eleccion, el costo aunmenta segun la talla</p>
+                    <p class="producto-precio">$ 200.00</p>
+                </li>
+                <li>
+                    <h2>Sudaderas</h2>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_696802-MLM47009316959_082021-O.webp" class="ImProductos">
+                    <p class="producto-descripcion">estampado a su eleccion, diferentes implementaciones de estampado, colores a eleccion, el costo aunmenta segun la talla</p>
+                    <p class="producto-precio">$ 350.00</p>
+                </li>
+                <li>
+                    <h2>Gorras</h2>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_965870-MLM51112258655_082022-O.webp" class="ImProductos">
+                    <p class="producto-descripcion">Gorra de béisbol (Trucker o Curve), bordadas, todos los colores y tallas</p>
+                    <p class="producto-precio">$ 180.00</p>
+                </li>
+            </ul>
+        </main>
+
+        <footer>
+            <img src="blaco.jpg" class="Foo">
+            <p class="copyright">&copy black world - 2023</p>
+        </footer>
+    </body>
+</html>
